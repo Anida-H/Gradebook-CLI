@@ -27,8 +27,9 @@ README.md
 
 ### 1. Create a virtual environment
 
-```bash
+```bash```
 python -m venv venv
+
 2. Activate the virtual environment
 
 On Windows:
@@ -38,6 +39,7 @@ venv\Scripts\activate
 On macOS/Linux:
 
 source venv/bin/activate
+
 How to Run the Application
 
 Run commands from the project root folder.
