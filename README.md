@@ -34,10 +34,12 @@ python -m venv venv
 
 On Windows:
 
+```bash```
 venv\Scripts\activate
 
 On macOS/Linux:
 
+```bash```
 source venv/bin/activate
 
 How to Run the Application
@@ -45,32 +47,51 @@ How to Run the Application
 Run commands from the project root folder.
 
 Add a student
+```bash```
 python main.py add-student --name "Zack"
+
 Add a course
+```bash```
 python main.py add-course --code CS103 --title "Electronics"
+
 Enroll a student in a course
+```bash```
 python main.py enroll --student-id 1 --course CS103
+
 Add a grade
+```bash```
 python main.py add-grade --student-id 1 --course CS103 --grade 95
+
 List students
+```bash```
 python main.py list students
+
 List courses
+```bash```
 python main.py list courses
+
 List enrollments
+```bash```
 python main.py list enrollments
+
 Compute average for a course
+```bash```
 python main.py avg --student-id 1 --course CS101
+
 Compute GPA for a student
+```bash```
 python main.py gpa --student-id 1
+
 Sample Data
 
 To populate the project with sample data, run:
-
+```bash```
 python -m scripts.seed
 
 This will save sample data into:
 data/gradebook.json
 Run Tests
+```bash```
 python -m unittest discover -s tests
 Logging
 
